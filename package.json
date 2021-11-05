@@ -8,7 +8,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jest",
     "release:patch": "git checkout main --quiet && npm version patch && git push && git push --tags",
     "release:minor": "git checkout main --quiet && npm version minor && git push && git push --tags",
     "release:major": "git checkout main --quiet && npm version major && git push && git push --tags"
@@ -17,10 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/alacerdan/eval-packer.git"
   },
-  "author": "Alã Damasceno",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alacerdan/eval-packer/issues"
   },
-  "homepage": "https://github.com/alacerdan/eval-packer#readme"
+  "homepage": "https://github.com/alacerdan/eval-packer#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
