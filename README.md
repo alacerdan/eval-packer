@@ -1,2 +1,2 @@
 # eval-packer
-Clever Packer
+Packer
