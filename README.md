@@ -1,2 +1,2 @@
 # eval-packer
-Packer
+Based on [Dean Edwards](https://www.npmjs.com/package/packer)
