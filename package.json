@@ -1,6 +1,6 @@
 {
   "name": "eval-packer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Packer",
   "main": "src/index.js",
   "publishConfig": {
